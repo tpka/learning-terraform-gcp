@@ -11,7 +11,6 @@
     - install it
 - Local provider
     > https://registry.terraform.io/providers/hashicorp/local/2.2.3
-    > /Volumes/GoogleDrive/My Drive/lab/udemy_Terraform-GCP/first-tf-script
 
 ### 8: init, plan, apply
 - files:
