@@ -13,8 +13,8 @@
     > https://registry.terraform.io/providers/hashicorp/local/2.2.3
 
 ### 8: init, plan, apply
-- files:
-    - /Volumes/GoogleDrive/My Drive/lab/udemy_Terraform-GCP/first-tf-script
+- file:
+    - /Volumes/GoogleDrive/My Drive/lab/learning-terraform-gcp/first-tf-script
 
 ### 9: local_file arguments
 
