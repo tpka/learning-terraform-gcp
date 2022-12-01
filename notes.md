@@ -1,4 +1,7 @@
+## Work notes
+- This is just work note of learning ;)
 
+---
 ## Section3: Terraform Basics & Installation
 ### 7: TF workflow
 1. scope
