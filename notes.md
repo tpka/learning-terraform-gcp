@@ -17,6 +17,11 @@
     - /Volumes/GoogleDrive/My Drive/lab/learning-terraform-gcp/first-tf-script
 
 ### 9: local_file arguments
+- Reference:
+    - https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file
+
+### 10: Mutltiple Resources
+
 
 ## Section4: Terraform with Google Cloud
 
