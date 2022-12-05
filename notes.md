@@ -49,6 +49,33 @@ set – only unique values
 object – complex data type
 ```
 
+## 15 Using Variables
+- There are 4 ways to use variable as below
+```
+variable filename {
+    type = string
+    default = "sample.txt"
+}
+var.filename
+
+---
+variable filename {}    Terraform apply will ask
+
+---
+terraform apply -var "filename=sample.txt"
+
+---
+export TF_VAR_filename=sample.txt"
+```
+- The order of loading variable. 1 is higher priority = load first
+```
+1. export TF_VAR_filename=sample.txt“
+2. terraform.tfvars file
+3. variable.auto.tfvars file
+4. terraform apply -var "filename=sample.txt”
+```
+
+
 ## Section4: Terraform with Google Cloud
 
 ### 23:
