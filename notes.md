@@ -33,7 +33,8 @@
 - to use variable instead of hardcorded value
 - File: /Users/t.takatsuka/Documents/learning-terraform-gcp/variables
 
-### 13: List of Variables
+### 13: List of Variables 1
+- File: /Users/t.takatsuka/Documents/learning-terraform-gcp/types_of_variables
 ```
 string – “cat”
 number – 234, 6.5
@@ -47,7 +48,6 @@ map – like key value : Dictionary
 set – only unique values
 object – complex data type
 ```
-
 
 ## Section4: Terraform with Google Cloud
 
