@@ -16,21 +16,22 @@
     > https://registry.terraform.io/providers/hashicorp/local/2.2.3
 
 ### 8: init, plan, apply
-- file:
-    - /Users/t.takatsuka/Documents/learning-terraform-gcp/first-tf-script
+- File: /Users/t.takatsuka/Documents/learning-terraform-gcp/first-tf-script
 
 ### 9: local_file arguments
 - Doc: https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file
 
 ### 10: Mutltiple Resources
 - Multiple resource in one main.tf
-- file:
-    - /Users/t.takatsuka/Documents/learning-terraform-gcp/multiple-resources
+- File: /Users/t.takatsuka/Documents/learning-terraform-gcp/multiple-resources
 
 ### 11: Random provider
 - Doc: https://registry.terraform.io/providers/hashicorp/random/latest/docs
+- File: /Users/t.takatsuka/Documents/learning-terraform-gcp/random-provider
 
-
+### 12: Intro to Variables
+- to use variable instead of hardcorded value
+- File: /Users/t.takatsuka/Documents/learning-terraform-gcp/variables
 
 ## Section4: Terraform with Google Cloud
 
