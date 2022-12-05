@@ -17,13 +17,19 @@
 
 ### 8: init, plan, apply
 - file:
-    - /Volumes/GoogleDrive/My Drive/lab/learning-terraform-gcp/first-tf-script
+    - /Users/t.takatsuka/Documents/learning-terraform-gcp/first-tf-script
 
 ### 9: local_file arguments
-- Reference:
-    - https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file
+- Doc: https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file
 
 ### 10: Mutltiple Resources
+- Multiple resource in one main.tf
+- file:
+    - /Users/t.takatsuka/Documents/learning-terraform-gcp/multiple-resources
+
+### 11: Random provider
+- Doc: https://registry.terraform.io/providers/hashicorp/random/latest/docs
+
 
 
 ## Section4: Terraform with Google Cloud
