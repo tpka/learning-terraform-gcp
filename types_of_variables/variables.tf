@@ -24,8 +24,14 @@ variable "content1" {
 }
 */
 
-
+/*
 variable "content1" {
     type = tuple([string,bool,number])
     default = ["red", true, 23]
+}
+*/
+
+variable "content1" {
+    type = map
+    default = {name = "Taro", age =18}
 }
