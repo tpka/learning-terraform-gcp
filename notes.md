@@ -33,6 +33,22 @@
 - to use variable instead of hardcorded value
 - File: /Users/t.takatsuka/Documents/learning-terraform-gcp/variables
 
+### 13: List of Variables
+```
+string – “cat”
+number – 234, 6.5
+bool - true/false
+list – sequence of value
+    list(string) =>[“red”, “green”, “blue”]
+Tuple – group non homogeneous data type
+    tuple([string, number, bool]) => [“dog”, 23, true]
+map – like key value : Dictionary
+    {name = “Ankit", age = 32}
+set – only unique values
+object – complex data type
+```
+
+
 ## Section4: Terraform with Google Cloud
 
 ### 23:
