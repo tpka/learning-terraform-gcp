@@ -2,15 +2,23 @@
 # https://registry.terraform.io/providers/hashicorp/random/latest/docs
 
 
-# This will generate random value
+# These two section below will generate random value
 
 resource "random_integer" "rint" {
   min = 80
   max = 200
 }
 
-# This will display output of first resource block
+resource "random_string" "rstring" {
+    length = 17 
+}
 
+
+# These two section below  will display output of first two resource blocks
 output "name1" {
     value = random_integer.rint.result
+}
+
+output "name2" {
+    value = random_string.rstring.result
 }
