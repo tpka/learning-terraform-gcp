@@ -49,7 +49,7 @@ set – only unique values
 object – complex data type
 ```
 
-## 15 Using Variables
+### 15 Using Variables
 - There are 4 ways to use variable as below
 ```
 variable filename {
@@ -75,9 +75,12 @@ export TF_VAR_filename=sample.txt"
 4. terraform apply -var "filename=sample.txt”
 ```
 
-## 16 Multiple Providers
+### 16 Multiple Providers
 - File: learning-terraform-gcp/multiple-providers
 
+### 17 Dependency
+- Implicit dependency
+- Explicit dependency
 
 ## Section4: Terraform with Google Cloud
 
