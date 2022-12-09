@@ -16,25 +16,25 @@
     > https://registry.terraform.io/providers/hashicorp/local/2.2.3
 
 ### 8: init, plan, apply
-- File: learning-terraform-gcp/first-tf-script
+- [File: first-tf-script](./first-tf-script)
 
 ### 9: local_file arguments
 - Doc: https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file
 
 ### 10: Mutltiple Resources
 - Multiple resource in one main.tf
-- File: learning-terraform-gcp/multiple-resources
+- [File: multiple-resources](./multiple-resources)
 
 ### 11: Random provider
 - Doc: https://registry.terraform.io/providers/hashicorp/random/latest/docs
-- File: learning-terraform-gcp/random-provider
+- [File: random-provider](./random-provider)
 
 ### 12: Intro to Variables
 - to use variable instead of hardcorded value
-- File: learning-terraform-gcp/variables
+- [File: variables](./variables)
 
 ### 13: List of Variables 1
-- File: learning-terraform-gcp/types_of_variables
+- [File: types_of_variables](./types_of_variables)
 ```
 string – “cat”
 number – 234, 6.5
@@ -76,11 +76,13 @@ export TF_VAR_filename=sample.txt"
 ```
 
 ### 16 Multiple Providers
-- File: learning-terraform-gcp/multiple-providers
+- [File: multiple-providers](./multiple-providers)
 
 ### 17 Dependency
-- Implicit dependency
-- Explicit dependency
+- [File: Implicit dependency](./dependency-implicit/)
+- [File: Explicit dependency](./dependency-explicit/)
+- Reference:
+    - [Understanding Terraform's depends_on](https://technotrampoline.com/articles/how-does-terraform-depends-on-work/)
 
 ## Section4: Terraform with Google Cloud
 
