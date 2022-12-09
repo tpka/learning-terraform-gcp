@@ -91,6 +91,10 @@ export TF_VAR_filename=sample.txt"
 - Reference:
     - [Understanding Terraform's depends_on](https://technotrampoline.com/articles/how-does-terraform-depends-on-work/)
 
+### 18 Output Block
+- [File: Output Block](./output-block/)
+
+
 ## Section4: Terraform with Google Cloud
 
 ### 23:
