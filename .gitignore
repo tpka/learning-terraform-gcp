@@ -56,3 +56,5 @@ tomohiro/*dev*
 reference*
 archive/*
 key*.json
+Basics/*/.terraform.lock.hcl
+GCP/*/.terraform.lock.hcl
