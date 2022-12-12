@@ -118,6 +118,18 @@ export TF_VAR_filename=sample.txt"
 
 ### 24: Provider & version
 - GCP provider Doc: https://registry.terraform.io/providers/hashicorp/google/latest/docs
+- [File: Google Provider](./GCP/get-started-with-gcp/)
+
+### 25-27: Connect Terraform with GCI
+- Google Provider base configuration
+    - projectid, zone, region
+- Multiple way to authernticate with GCP
+    - <u>username/password</u> - gcloud auth application - default login
+    - <u>Cloud Shell</u>(lecture 26)
+    - <u>Service Account</u> - Keys: preferred in production(lecture 27)
+- Doc: [google_storage_bucket](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket)
+
+
 
 
 ---
