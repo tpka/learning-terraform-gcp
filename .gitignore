@@ -55,3 +55,4 @@ tomohiro/*dev*
 *.pdf
 reference*
 archive/*
+key*.json
