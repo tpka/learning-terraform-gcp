@@ -23,25 +23,25 @@ Learning history and files of *Terraform for Beginners using GCP - Google Cloud 
     > https://registry.terraform.io/providers/hashicorp/local/2.2.3
 
 ### 8: init, plan, apply
-- [File: first-tf-script](./first-tf-script)
+- [File: first-tf-script](./Basics/first-tf-script)
 
 ### 9: local_file arguments
 - Doc: https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file
 
 ### 10: Mutltiple Resources
 - Multiple resource in one main.tf
-- [File: multiple-resources](./multiple-resources)
+- [File: multiple-resources](./Basics/multiple-resources)
 
 ### 11: Random provider
 - Doc: https://registry.terraform.io/providers/hashicorp/random/latest/docs
-- [File: random-provider](./random-provider)
+- [File: random-provider](./Basics/random-provider)
 
 ### 12: Intro to Variables
 - to use variable instead of hardcorded value
-- [File: variables](./variables)
+- [File: variables](./Basics/variables)
 
 ### 13: List of Variables 1
-- [File: types_of_variables](./types_of_variables)
+- [File: types_of_variables](./Basics/types_of_variables)
 ```
 string – “cat”
 number – 234, 6.5
@@ -83,37 +83,34 @@ export TF_VAR_filename=sample.txt"
 ```
 
 ### 16: Multiple Providers
-- [File: multiple-providers](./multiple-providers)
+- [File: multiple-providers](./Basics/multiple-providers)
 
 ### 17: Dependency
-- [File: Implicit dependency](./dependency-implicit/)
-- [File: Explicit dependency](./dependency-explicit/)
+- [File: Implicit dependency](./Basics/dependency-implicit/)
+- [File: Explicit dependency](./Basics/dependency-explicit/)
 - Reference:
     - [Understanding Terraform's depends_on](https://technotrampoline.com/articles/how-does-terraform-depends-on-work/)
 
 ### 18: Output Block
-- [File: Output Block](./output-block/)
+- [File: Output Block](./Basics/output-block/)
 
 ### 19: Lifecycle Rules
-- [File: Lifecycle Rules](./lifecycle/)
+- [File: Lifecycle Rules](./Basics/lifecycle/)
 - lifecycle – resource attributes
 - <u>create_before_destroy</u> - Create the resource first and then destroy older
 - <u>prevent_destroy</u> - Prevents destroy of a resource
 - <u>ignore_changes</u> - Ignore Changes to Resource – Specific tag or all
 
 ### 20: Provisioner Version
-- [File: Provisioner Version](./provider_version/)
+- [File: Provisioner Version](./Basics/provider_version/)
 - Doc: https://registry.terraform.io/providers/hashicorp/random/latest/docs
     - to check current latest version
 
 ### 21: Data Source - Read File
-- [File: Data Source](./data_source/)
-
-
-
+- [File: Data Source](./Basics/data_source/)
 ## Section4: Terraform with Google Cloud
 
-### 23:
+### 23: Google Cloud Project - Service Account
 - Service Account
     - https://console.cloud.google.com/iam-admin/serviceaccounts
     - created new service account
