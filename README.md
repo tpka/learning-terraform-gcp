@@ -128,6 +128,8 @@ export TF_VAR_filename=sample.txt"
     - <u>Cloud Shell</u>(lecture 26)
     - <u>Service Account</u> - Keys: preferred in production(lecture 27)
 - Doc: [google_storage_bucket](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket)
+- [File-26:](./GCP/get-started-with-gcp/)
+- [File-27:](./GCP/get-started-with-gcp-auth-service-account/)
 
 
 
