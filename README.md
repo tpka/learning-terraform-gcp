@@ -131,6 +131,12 @@ export TF_VAR_filename=sample.txt"
 - [File-26:](./GCP/get-started-with-gcp/)
 - [File-27:](./GCP/get-started-with-gcp-auth-service-account/)
 
+## Section5: Cloud Storage with Terraform
+
+### 29-32: Getting start with Cloud Storage
+- Doc: https://cloud.google.com/storage
+- Doc: https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket
+- [File-30-32:](./GCP/GCS/)
 
 
 
