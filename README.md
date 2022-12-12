@@ -56,7 +56,7 @@ set – only unique values
 object – complex data type
 ```
 
-### 15 Using Variables
+### 15: Using Variables
 - There are 4 ways to use variable as below
 ```
 variable filename {
@@ -82,24 +82,32 @@ export TF_VAR_filename=sample.txt"
 4. terraform apply -var "filename=sample.txt”
 ```
 
-### 16 Multiple Providers
+### 16: Multiple Providers
 - [File: multiple-providers](./multiple-providers)
 
-### 17 Dependency
+### 17: Dependency
 - [File: Implicit dependency](./dependency-implicit/)
 - [File: Explicit dependency](./dependency-explicit/)
 - Reference:
     - [Understanding Terraform's depends_on](https://technotrampoline.com/articles/how-does-terraform-depends-on-work/)
 
-### 18 Output Block
+### 18: Output Block
 - [File: Output Block](./output-block/)
 
-### 19 Lifecycle Rules
+### 19: Lifecycle Rules
 - [File: Lifecycle Rules](./lifecycle/)
 - lifecycle – resource attributes
 - <u>create_before_destroy</u> - Create the resource first and then destroy older
 - <u>prevent_destroy</u> - Prevents destroy of a resource
 - <u>ignore_changes</u> - Ignore Changes to Resource – Specific tag or all
+
+### 20: Provisioner Version
+- [File: Provisioner Version](./provider_version/)
+- Doc: https://registry.terraform.io/providers/hashicorp/random/latest/docs
+    - to check current latest version
+
+### 21: Data Source - Read File
+- [File: Data Source](./data_source/)
 
 
 
