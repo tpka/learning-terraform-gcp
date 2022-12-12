@@ -94,6 +94,14 @@ export TF_VAR_filename=sample.txt"
 ### 18 Output Block
 - [File: Output Block](./output-block/)
 
+### 19 Lifecycle Rules
+- [File: Lifecycle Rules](./lifecycle/)
+- lifecycle – resource attributes
+- <u>create_before_destroy</u> - Create the resource first and then destroy older
+- <u>prevent_destroy</u> - Prevents destroy of a resource
+- <u>ignore_changes</u> - Ignore Changes to Resource – Specific tag or all
+
+
 
 ## Section4: Terraform with Google Cloud
 
