@@ -139,6 +139,14 @@ export TF_VAR_filename=sample.txt"
 - [File-30-32:](./GCP/GCS/)
 
 
+## Section6: GCP Networking with Terraform
+
+### 33-34: Create VPC
+- 3 Types of VPC
+    - Default VPC
+    - Auto Mode
+    - Custom Mode
+- [File-34-36:](./GCP/network/)
 
 ---
 
