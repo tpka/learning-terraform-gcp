@@ -139,7 +139,7 @@ export TF_VAR_filename=sample.txt"
 - [File-30-32:](./GCP/GCS/)
 
 
-## Section6: GCP Networking with Terraform
+## Section6: Networking with Terraform
 
 ### 33-34: Create VPC
 - 3 Types of VPC
@@ -147,6 +147,15 @@ export TF_VAR_filename=sample.txt"
     - Auto Mode
     - Custom Mode
 - [File-34-36:](./GCP/network/)
+
+## Section7: Compute Engine with Terraform
+
+### 38-43: Create Compute Engine
+- [File-38-42:](./GCP/GCE)
+- Doc:
+    - [google_compute_instance:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance)
+    - [google_compute_disk:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_disk)
+    - [google_compute_attached_disk:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_attached_disk)
 
 ---
 
