@@ -20,7 +20,7 @@ resource "google_compute_instance" "vm-from-tf" {
 # lecture 40:
 # to not to delete boot disk when deleting vm
 # default is true
-        auto_delete = false # = Keep disk
+        #auto_delete = false # = Keep disk
     }
 # machine_type: https://cloud.google.com/compute/docs/general-purpose-machines
     machine_type = "n1-standard-2"
