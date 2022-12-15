@@ -157,6 +157,13 @@ export TF_VAR_filename=sample.txt"
     - [google_compute_disk:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_disk)
     - [google_compute_attached_disk:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_attached_disk)
 
+## Section8: Cloud Run with Terraform
+
+### 45-48: Cloud Run
+- [Container Registory, Google Samples](https://console.cloud.google.com/gcr/images/google-samples)
+- [File-45-47](./GCP/Run/)
+
+
 ---
 
 ## Environment:
