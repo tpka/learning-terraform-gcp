@@ -15,9 +15,24 @@ resource "google_cloud_run_service" "run-app-from-tf" {
       spec {
         containers {
 # https://console.cloud.google.com/gcr/images/google-samples/global/hello-app
-            image = "gcr.io/google-samples/hello-app:1.0"
+#            image = "gcr.io/google-samples/hello-app:1.0"
+# lecture 47:
+# deploying new version
+            image = "gcr.io/google-samples/hello-app:2.0"
         }
       }
+    }
+# lecture 47:
+# spreading the traffic
+# the revision_name is available after new version is available on cloud console.
+# https://console.cloud.google.com/run
+    traffic {
+      revision_name = "run-app-from-tf-trh7s"
+      percent = 50
+    }
+    traffic {
+      revision_name = "run-app-from-tf-k896v"
+      percent = 50
     }
 }
 
