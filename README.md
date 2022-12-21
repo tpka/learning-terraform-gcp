@@ -163,6 +163,11 @@ export TF_VAR_filename=sample.txt"
 - [Container Registory, Google Samples](https://console.cloud.google.com/gcr/images/google-samples)
 - [File-45-47](./GCP/Run/)
 
+### 49-53: Cloud Function
+- [File-50-53](./GCP/Function/)
+- Doc:
+    - [google_cloudfunctions_function:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/cloudfunctions_function)
+    - [google_cloudfunctions2_function:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/cloudfunctions2_function)
 
 ---
 
