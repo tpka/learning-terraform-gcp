@@ -175,6 +175,12 @@ export TF_VAR_filename=sample.txt"
     - [google_bigquery_dataset:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/bigquery_dataset)
     - [google_bigquery_table:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/bigquery_table)
 
+### 55-56: Cloud PubSub
+- [File-56](./GCP/PubSub/)
+- Doc:
+    - [google_pubsub_topic:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/pubsub_topic)
+    - [google_pubsub_subscription:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/pubsub_subscription)
+
 
 ---
 
