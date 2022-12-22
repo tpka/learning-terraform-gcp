@@ -172,6 +172,13 @@ export TF_VAR_filename=sample.txt"
     - [google_pubsub_topic:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/pubsub_topic)
     - [google_pubsub_subscription:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/pubsub_subscription)
 
+### 57: Cloud Spanner
+- [File-57](./GCP/Spanner/)
+- Doc:
+    - [google_spanner_instance:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/spanner_instance)
+    - [google_spanner_database:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/spanner_database)
+
+
 ---
 
 ## Environment:
