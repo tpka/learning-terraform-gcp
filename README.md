@@ -171,6 +171,9 @@ export TF_VAR_filename=sample.txt"
 
 ### 54: BigQuery
 - [File-54](./GCP/BigQuery/)
+- Doc:
+    - [google_bigquery_dataset:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/bigquery_dataset)
+    - [google_bigquery_table:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/bigquery_table)
 
 
 ---
