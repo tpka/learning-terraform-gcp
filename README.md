@@ -169,6 +169,10 @@ export TF_VAR_filename=sample.txt"
     - [google_cloudfunctions_function:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/cloudfunctions_function)
     - [google_cloudfunctions2_function:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/cloudfunctions2_function)
 
+### 54: BigQuery
+- [File-54](./GCP/BigQuery/)
+
+
 ---
 
 ## Environment:
