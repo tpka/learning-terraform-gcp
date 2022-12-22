@@ -110,7 +110,7 @@ export TF_VAR_filename=sample.txt"
 - [File: Data Source](./Basics/data_source/)
 ## Section4: Terraform with Google Cloud
 
-### 23: Google Cloud Project - Service Account
+### 23: Project - Service Account
 - Service Account
     - https://console.cloud.google.com/iam-admin/serviceaccounts
     - created new service account
@@ -120,7 +120,7 @@ export TF_VAR_filename=sample.txt"
 - GCP provider Doc: https://registry.terraform.io/providers/hashicorp/google/latest/docs
 - [File: Google Provider](./GCP/get-started-with-gcp/)
 
-### 25-27: Connect Terraform with GCI
+### 25-27: Connect Terraform with GCP
 - Google Provider base configuration
     - projectid, zone, region
 - Multiple way to authernticate with GCP
@@ -131,33 +131,24 @@ export TF_VAR_filename=sample.txt"
 - [File-26:](./GCP/get-started-with-gcp/)
 - [File-27:](./GCP/get-started-with-gcp-auth-service-account/)
 
-## Section5: Cloud Storage with Terraform
-
-### 29-32: Getting start with Cloud Storage
+### 29-32: Cloud Storage
 - Doc: https://cloud.google.com/storage
 - Doc: https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket
 - [File-30-32:](./GCP/GCS/)
 
-
-## Section6: Networking with Terraform
-
-### 33-34: Create VPC
+### 33-34: VPC
 - 3 Types of VPC
     - Default VPC
     - Auto Mode
     - Custom Mode
 - [File-34-36:](./GCP/network/)
 
-## Section7: Compute Engine with Terraform
-
-### 38-43: Create Compute Engine
+### 38-43: Compute Engine
 - [File-38-42:](./GCP/GCE)
 - Doc:
     - [google_compute_instance:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance)
     - [google_compute_disk:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_disk)
     - [google_compute_attached_disk:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_attached_disk)
-
-## Section8: Cloud Run with Terraform
 
 ### 45-48: Cloud Run
 - [Container Registory, Google Samples](https://console.cloud.google.com/gcr/images/google-samples)
@@ -180,7 +171,6 @@ export TF_VAR_filename=sample.txt"
 - Doc:
     - [google_pubsub_topic:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/pubsub_topic)
     - [google_pubsub_subscription:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/pubsub_subscription)
-
 
 ---
 
