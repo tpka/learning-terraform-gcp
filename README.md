@@ -178,6 +178,9 @@ export TF_VAR_filename=sample.txt"
     - [google_spanner_instance:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/spanner_instance)
     - [google_spanner_database:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/spanner_database)
 
+### 58-59: Cloud SQL
+- [File-59](./GCP/SQL/)
+- 
 
 ---
 
