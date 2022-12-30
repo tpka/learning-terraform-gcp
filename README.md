@@ -180,7 +180,9 @@ export TF_VAR_filename=sample.txt"
 
 ### 58-59: Cloud SQL
 - [File-59](./GCP/SQL/)
-- 
+- Doc:
+    - [google_sql_database_instance:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance)
+    - [google_sql_database:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database)
 
 ---
 
