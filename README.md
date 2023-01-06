@@ -184,6 +184,24 @@ export TF_VAR_filename=sample.txt"
     - [google_sql_database_instance:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance)
     - [google_sql_database:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database)
 
+
+### 61-62: [BigTable](https://cloud.google.com/bigtable/docs/)
+- a fully managed, wide-column NoSQL database
+- [File-61-62](./GCP/BigTable/)
+- Doc:
+    - [google_bigtable_instance](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/bigtable_instance)
+    - [google_bigtable_table](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/bigtable_table)
+
+
+### 63-63: [Memoeystore](https://cloud.google.com/memorystore/docs)
+- in-memory data store service for Redis and Memcached
+
+- [File-61-62](./GCP/Redis/)
+- Doc:
+    - [google_redis_instance(resources):](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/redis_instance)
+    - [google_redis_instance(data resources):](https://registry.terraform.io/providers/hashicorp/google/latest/docs/data-sources/redis_instance)
+    - [google_memcache_instance:](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/memcache_instance)
+
 ---
 
 ## Environment:
