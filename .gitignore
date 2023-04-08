@@ -1,4 +1,5 @@
 # https://github.com/hashicorp/terraform-guides/blob/master/.gitignore
+# https://github.com/github/gitignore/blob/main/Terraform.gitignore
 
 # Compiled files
 *.tfstate
