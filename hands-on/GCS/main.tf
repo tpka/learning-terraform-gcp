@@ -4,7 +4,7 @@
 terraform {
   required_providers {
     google = {
-      source = "hashicorp/google"
+      source  = "hashicorp/google"
       version = "4.60.2"
     }
   }
@@ -13,9 +13,9 @@ terraform {
 provider "google" {
   # Configuration options
   project = "YOUR-PROJECT"
-# https://cloud.google.com/compute/docs/regions-zones
+  # https://cloud.google.com/compute/docs/regions-zones
   region = "europe-west4"
-  zone = "europe-west4-c"
+  zone   = "europe-west4-c"
 }
 
 resource "random_string" "this" {
